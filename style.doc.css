@@ -1,0 +1,25 @@
+/*Selector {
+	Property: value;
+}*/
+body {
+	background-image: url(nes.controller.bg.jpg);
+	background-size: cover;
+}
+
+h2 {
+	color: red;
+	text-align: center;
+	border: 2px dashed orangered;
+	cursor: pointer;
+
+}
+h3 {
+	color: grey;
+}
+p {
+	color: ghostwhite;
+}
+li {
+	list-style: none;
+	
+}
