@@ -1,9 +1,30 @@
 /*Selector {
 	Property: value;
 }*/
+/* the red starting code below are known as elements*/
+/*those with a .selector are known as class selectors*/
+/*those with a # are known as id selectors*/
+/* the "*" selector effects all selectors in your doc*/
+/*element, element effects both/all elements selected*/
+/*element1 _ element2 effects all e2's inside e1's */
+/*elementP > elementC effects all eChilds of specific Parent elements*/
+/*element1 + element2 effects any e2 inside an e1 element*/
+/*:hover makes data on-page not take effect until it's hovered over*/
+/*:last-child effects only the last in any group of data or list-style*/
+/*:first-child does the same/opposite of :last-child in order*/
+/*!important overides cascading stylesheet rules in the style specified*/
+
+/*When selectors win out in the Cascade - it's based on 2 rules*/
+/*#1 is Specificity #2 is Importance #3 is Source-Order*/
+
+
 body {
 	background-image: url(nes.controller.bg.jpg);
 	background-size: cover;
+}
+
+a {/*this keeps your hyperlinks from changing color when visited*/
+	color: orangered;
 }
 
 h2 {
@@ -13,13 +34,27 @@ h2 {
 	cursor: pointer;
 
 }
+
 h3 {
 	color: grey;
 }
+
 p {
 	color: ghostwhite;
 }
-li {
+
+li { /*this will take numbers and bullets out of lists */
 	list-style: none;
-	
+}
+
+
+.genre {/*you can select groups of elements with a class selector*/
+	color: red;
+}
+#div1 {/*id selects a specific element, unique id's only work once */
+	background: rgba(85, 0, 0, 0.5);
+}
+
+#div2 {
+	background-color: rgba(112, 128, 144, 0.5);
 }

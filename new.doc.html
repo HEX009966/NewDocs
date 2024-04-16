@@ -17,11 +17,11 @@
 <body>
 	<!-- below is how to do an in-line style via h1 -->
 	<h1 style="color: red;">The Console Wars</h1>
-	<h2>Html-5</h2>
-	<p>learning basic tags</p>
-    <p>~ < html, head, title, body, h1-h6, p, strong & em ></p><br>
+	<h2>HTML-5</h2>
+		<p>learning basic tags</p>
+    	<p>~ < html, head, title, body, h1-h6, p, strong & em ></p><br>
 
-    <h2>Lists</h2>
+    <h2>LISTS</h2>
     <h3>Unordered Lists</h3><!-- lists with dots -->
     	<ul>
     		<li>Nintendo</li>
@@ -34,15 +34,47 @@
     		<li>The Legend of Zelda</li>
     		<li>Donkey Kong</li>
     	</ol>
-    <h2>Images</h2>
+    <h2>IMAGES</h2>
     	<!-- img tags are self-closing tags-->
     	<img src="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" alt="picture of the first mario bros game">
-    	<img src="https://images-na.ssl-images-amazon.com/images/I/71mnYLaWtxL._AC_UL600_SR600,600_.jpg" width="350px" height="360px" alt="picture of the first zelda game">
+
+    	<img src="https://static.wikia.nocookie.net/zelda_gamepedia_en/images/0/0c/TLoZ_NES_NA_Box.png/revision/latest/scale-to-width-down/250?cb=20170404023020" width="250px" height="360px" alt="picture of the first zelda game">
+
     	<img src="https://static.wikia.nocookie.net/nes/images/9/9f/Donkey_Kong.JPG/revision/latest?cb=20080807232845" width="250px" height="360px" alt="picture of the first donkey kong game">
-    	<br>
-    <h2>Hypetext Links</h2>
-    	<p>This is an example of a Hyperlink: <a href="new.doc.page.1.html">Register</a></p>
-    
+
+    <h2>HYPERLINKS</h2>
+        <p>This is an example of a Hyperlink: <a href="new.doc.page.1.html">Register</a></p>
+    	<p>It will link relative to where new.doc is located and take you to a new page inside that document/folder.</p><br>
+
+        <p>These Links open new tabs entirely:</p>
+        <!-- below are links to new tabs, use the target attribute and set it ="blank" to do so -->
+        <ul>
+    		<li><a href="https://lparchive.org/Final-Fantasy-II-(by-Mega64)/Update%2003/18-021.gif" target="_blank">RPG's</a></li>
+    		<li><a href="https://66.media.tumblr.com/76575608b1b6b1b639a81a8d63956d40/tumblr_mfpcef5sXl1rl04amo1_500.gif" target="_blank">Action/Adventure</a></li>
+			<li><a href="https://i.pinimg.com/originals/63/dd/d7/63ddd7f601b6c9961e83fc5f45bd67f5.gif" target="_blank">Platformer</a></li>
+		</ul>
+
+    <h2>CLASSES</h2>
+    	<!--add the property "class" inside your opening tag-->
+        <p>You can style sets of data like lists with the "class" property, seperating it from similair tags or elements.</p>
+    	<ul>
+    		<li class="genre">Role Playing Games/RPG's</li>
+    		<li class="genre">Action & Adventure</li>
+    		<li class="genre">Platformer</li>
+    	</ul>
+    <h2>SELECTORS</h2>
+    <section>
+    	<div id="div1">
+	    	<p>This section is utilizing the #id selector.</p>
+	    	<p>You can use unique id #selectors only once.</p>
+	    	<p>Use div tags in html for various selectors.</p>
+        </div>
+        <div id="div2">
+	    	<p>This section is utilizing the #id selector.</p>
+	    	<p>You can use unique id #selectors only once.</p>
+	    	<p>Use div tags in html for various selectors.</p>
+        </div>
+    </section>
 
 
 </body>
