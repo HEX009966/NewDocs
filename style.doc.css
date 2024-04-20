@@ -51,6 +51,7 @@ h2 {
 
 h3 {
 	color: grey;
+	list-
 }
 
 p {
@@ -78,4 +79,13 @@ li { /*this will take numbers and bullets out of lists */
 	text-decoration: line-through;
 	text-transform: lowercase;
 	line-height: 10px;
+}
+
+.boxmodel {
+	border: 2px dashed orangered;
+	display: inline-block;
+	padding: 5px 20px 5px 20px; /*space inside the box*/
+	margin: 20px; /*space around the box*/
+	width: 30px;/*width/height change the actual content within*/
+	height: 50px;
 }
