@@ -1,0 +1,30 @@
+body {
+/*	margin: 0px;*/
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	background-color: mediumpurple;
+	font-size: 3em;
+	font-family: sans-serif;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+img {
+	width: 530px;
+	height: 300px;
+	border-style: solid;
+	border-color: mediumpurple;
+/*	box-shadow: 5px 5px mediumpurple;*/
+	margin: 15px;
+	transition: all 1s;/*all properties will trans. over 1sec*/
+}
+img:hover {
+	transform: scale(1.1);/*when hover, takes 1.1sec to grow larger*/
+}

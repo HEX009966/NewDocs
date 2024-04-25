@@ -36,6 +36,7 @@ body {
 a {/*this keeps your hyperlinks from changing color when visited*/
 	color: orangered;
 	font-size: 110%;
+	text-decoration: none;/*takes away hyperlink underlines*/
 }
 
 h2 {
@@ -72,6 +73,7 @@ li { /*this will take numbers and bullets out of lists */
 	font-weight: lighter;
 	font-size: 120%;
 	font-family: "Jersey 10", sans-serif;
+	text-transform: capitalize; /*first letter of each word is Caps*/
 }
 
 #div2 {
@@ -84,8 +86,13 @@ li { /*this will take numbers and bullets out of lists */
 .boxmodel {
 	border: 2px dashed orangered;
 	display: inline-block;
-	padding: 5px 20px 5px 20px; /*space inside the box*/
-	margin: 20px; /*space around the box*/
+	padding: 5px 20px 5px 20px; /*space inside the box clockwise*/
+	margin: 20px; /*space around the box on all sides, also clockwise*/
 	width: 30px;/*width/height change the actual content within*/
 	height: 50px;
+}
+
+span { /*em means equal to number times the containing tags size*/
+	   /*rem is relative to the size of the html element font*/
+	font-size: 2em;
 }
