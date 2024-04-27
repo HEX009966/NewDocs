@@ -1,3 +1,10 @@
+#flush-collapseOne, #flush-collapseThree {
+	background-color: #FDD779;
+}
+#flush-collapseTwo {
+	background-color: #63B7B7;
+}
+
 .cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -8,4 +15,8 @@
 .img-fluid {
 	display: flex;
 	margin: 0 auto;
+}
+
+h5, p {
+	text-align: center;
 }
