@@ -1,0 +1,98 @@
+/* the red starting code below are known as elements*/
+/* those with a .selector are known as class selectors*/
+/* those with a # are known as id selectors*/
+/* the "*" selector effects all selectors in your doc*/
+/* element, element effects both/all elements selected*/
+/* element1 _ element2 effects all e2's inside e1's */
+/* elementP > elementC effects all eChilds of specific Parent elements*/
+/* element1 + element2 effects any e2 inside an e1 element*/
+/* :hover makes data on-page not take effect until it's hovered over*/
+/* :last-child effects only the last in any group of data or list-style*/
+/* :first-child does the same/opposite of :last-child in order*/
+/* :only-child selects any element that's the only element inside another one*/
+/* in cases where there is only 1 element, that element is all three -
+   the :first-child, :last-child, and :only-child*/
+/* :first-of-type selects the 1st element of that type within another element*/
+/* :nth-of-type Selects a specific element based on its type and order in
+    another element - or even or odd instances of that element.
+/* :empty selects elements that don't have any elements inside of them*/
+/* !important overides cascading stylesheet rules in the style specified*/
+/*When selectors win out in the Cascade - it's based on 3 rules*/
+/*#1 is Specificity #2 is Importance #3 is Source-Order*/
+
+/*Selector {
+	Property: value;
+}*/
+h1   {
+	font-family: "Jersey 10", sans-serif;
+	letter-spacing: .5rem;
+	font-size: 250%;
+}
+body {
+	background-image: url(nes.controller.bg.jpg);
+	background-size: cover;
+}
+
+a {/*this keeps your hyperlinks from changing color when visited*/
+	color: orangered;
+	font-size: 110%;
+	text-decoration: none;/*takes away hyperlink underlines*/
+}
+
+h2 {
+	color: red;
+	text-align: center;
+	border: 2px dashed orangered;
+	font-weight: lighter;
+	font-family: "Jersey 10", sans-serif;
+	cursor: pointer;
+	letter-spacing: .5rem;
+	font-size: 150%;
+}
+
+h3 {
+	color: grey;
+	list-
+}
+
+p {
+	color: ghostwhite;
+}
+
+li { /*this will take numbers and bullets out of lists */
+	list-style: none;
+}
+
+
+.genre {/*you can select groups of elements with a class selector*/
+	color: red;
+}
+#div1 {/*id selects a specific element, unique id's only work once */
+	background: rgba(85, 0, 0, 0.5);
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 120%;
+	font-family: "Jersey 10", sans-serif;
+	text-transform: capitalize; /*first letter of each word is Caps*/
+}
+
+#div2 {
+	background-color: rgba(112, 128, 144, 0.5);
+	text-decoration: line-through;
+	text-transform: lowercase;
+	line-height: 10px;
+}
+
+.boxmodel {
+	border: 2px dashed orangered;
+	display: inline-block;
+	padding: 5px 20px 5px 20px; /*space inside the box clockwise*/
+	margin: 20px; /*space around the box on all sides, also clockwise*/
+	width: 30px;/*width/height change the actual content within*/
+	height: 50px;
+}
+
+span { /*em means equal to number times the containing tags size*/
+	   /*rem is relative to the size of the html element font*/
+	font-size: 2em;
+}
