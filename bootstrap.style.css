@@ -19,7 +19,7 @@
 	background-color: black;
 }
 .world-8 {
-	background-color: indianred;
+	background-color: orangered;
 }
 
 .card-img-top {
@@ -38,4 +38,20 @@
 
 h5, p {
 	text-align: center;
+}
+
+.col {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+
+}
+
+a .btn-dark {
+	background-color: #009966;
+	border-color: #009966;
+}
+a .btn-dark:hover {
+	background-color: darkgreen;
+	border-color: darkgreen;
 }
