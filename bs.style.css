@@ -56,5 +56,16 @@ a .btn-dark:hover {
 	border-color: darkgreen;
 }
 
-/*below are the style for bootstrap grid? */
+/*below are the style for bootstrap grid */
 
+.col {
+	background-color: lightblue;
+	border: 2px solid darkcyan;
+}
+
+a .btn-success {
+	display: flex;
+/*	text-decoration: none;*/
+	background-color: darkcyan;
+	margin: 0 auto;
+}
