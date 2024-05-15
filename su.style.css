@@ -4,11 +4,12 @@ body, html {
 	font-family: 'Jersey 10', sans-serif;
 /* This is "Perfect Full-Page Background Image" CSS	*/
 /* Must have quotations around image file name	*/
-	background: url("Super Mario Bros 3 Official Logo.jpg") no-repeat center center fixed; 
+	background: url("https://mario.wiki.gallery/images/f/fc/SuperMarioBrosArtwork2.jpg") no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+/*  	https://mario.wiki.gallery/images/b/bf/SMB_-_NES_cover_art.png*/
 }
 
 h1	{
@@ -20,7 +21,7 @@ h1	{
 /*	-webkit-text-stroke: .5px red;*/
 
 }
-/* this hr element is a snippit from Andrea's tutorial */
+/* this hr element is a snippit from Andrei's tutorial */
 /*hr {
     margin: 20px auto;
     color: #F05F44;
